@@ -32,4 +32,8 @@
         <name>packcrack</name>
         <user_friendly_name>Triple-chunk sand-based terrain filtering</user_friendly_name>
     </app>
+    <app>
+        <name>flowerpatch</name>
+        <user_friendly_name>Flowerpatch pattern finding</user_friendly_name>
+    </app>
 </boinc>

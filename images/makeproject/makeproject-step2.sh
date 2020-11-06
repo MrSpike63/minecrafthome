@@ -115,5 +115,19 @@ yes | bin/update_versions
 #    --wu_name "${wu_name}"
 # done <<< "$(cat seeds.txt)"; done
 
+# for i in {0..484} do
+#     for j in {0..170}; do
+#         for k in {0..5}; do
+#             wu_name="flowerpatch_1.01_$(i)_$(j)_$(k)"
+#             echo "create_work: ${wu_name}"
+#             bin/create_work --appname flowerpatch \
+#             --wu_template templates/seeds_in \
+#             --result_template templates/flowerpatch_out \
+#             --command_line "--task $(i) --dfz $(j) --offset $(k)" \
+#             --wu_name "${wu_name}" \
+#             --priority 10000
+#         done
+#     done
+# done
 
 touch $PROJECT_ROOT/.built_${PROJECT}
